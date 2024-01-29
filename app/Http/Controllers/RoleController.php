@@ -21,7 +21,7 @@ class RoleController extends Controller
         $this->middleware('permission:delete-role', ['only' => ['destroy']]);
     }
     /**
-     * Display a listing of the resource.
+     * Display a listing of the resource.   
      */
     public function index(): View
     {
